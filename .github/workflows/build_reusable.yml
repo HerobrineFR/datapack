@@ -14,7 +14,6 @@ on:
 jobs:
     build:
         name: Build Datapack
-        permissions: write-all
         runs-on: ubuntu-latest
         outputs:
           artifact-name: ${{ steps.upload.outputs.artifact-name }}
