@@ -28,6 +28,7 @@ jobs:
             uses: ComunidadAylas/PackSquash-action@v4
             with:
                 packsquash_version: latest
+                artifact_name: build-artifacts
                 options: |
                   output_file_path = "/tmp/build-artifact.zip"
                   pack_directory = '.'
