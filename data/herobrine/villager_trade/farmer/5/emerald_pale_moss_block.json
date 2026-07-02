@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 2
+  },
+  "gives": {
+    "id": "minecraft:pale_moss_block",
+    "count": 20
+  },
+  "reputation_discount": 0.5,
+  "xp": 5
+}

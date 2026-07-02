@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        "protection",
+        "sharpness",
+        "unbreaking",
+        "knockback"
+    ]
+}

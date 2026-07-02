@@ -1,0 +1,1 @@
+schedule function herobrine:loops/10m 600s

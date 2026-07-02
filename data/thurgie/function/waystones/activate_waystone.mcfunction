@@ -1,0 +1,3 @@
+execute if items entity @s weapon.mainhand minecraft:wild_armor_trim_smithing_template at @s run execute as @n[type=marker,tag=thurgie_point_tp,distance=..20] at @s run function thurgie:waystones/get_destination
+execute if items entity @s weapon.mainhand minecraft:wild_armor_trim_smithing_template run item modify entity @s weapon.mainhand {"function":"minecraft:set_damage","damage":-.25,add:true}
+execute if items entity @s weapon.mainhand minecraft:wild_armor_trim_smithing_template if entity @n[type=marker,tag=thurgie_point_tp,distance=..20] at @s run playsound minecraft:block.respawn_anchor.deplete master @a[distance=..20] ~ ~ ~ 1 .1

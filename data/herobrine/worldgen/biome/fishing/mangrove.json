@@ -1,0 +1,24 @@
+{
+  "temperature": 30,
+  "downfall": 5,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 41943,
+    "fog_color": 7304712,
+    "water_color": 9806889,
+    "water_fog_color": 10976000,
+    "grass_color": 6724661,
+    "foliage_color": 5208616,
+    "dry_foliage_color": 5199107,
+    "particle": {
+      "options": {
+        "type": "minecraft:firefly"
+      },
+      "probability": 0.01
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

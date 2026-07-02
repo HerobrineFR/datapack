@@ -1,0 +1,1 @@
+$data modify entity @n[type=minecraft:text_display,tag=trainStationDisplay] text set from storage hb:train stations[$(temp)].name

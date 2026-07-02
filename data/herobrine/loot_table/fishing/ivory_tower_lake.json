@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.ancient_coelacanth"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.ancient_coelacanth.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ancient_coelacanth.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ancient_coelacanth.lore_3",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ancient_coelacanth.lore_4",
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:rarity": "epic",
+                "minecraft:item_model": "herobrine:ancient_coelacanth"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:kelp",
+              "weight": 33
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "weight": 33
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cobblestone",
+              "weight": 33
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

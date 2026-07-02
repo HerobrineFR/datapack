@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:salmon",
+    "count": 4
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 1
+  },
+  "reputation_discount": 0.3,
+  "xp": 3
+}

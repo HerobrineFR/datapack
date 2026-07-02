@@ -1,0 +1,1 @@
+execute as @s if score @n[type=marker,tag=thurgie_point_tp,distance=..20] thurgie_waystones matches 1.. run function thurgie:waystones/travel_to_waypoint

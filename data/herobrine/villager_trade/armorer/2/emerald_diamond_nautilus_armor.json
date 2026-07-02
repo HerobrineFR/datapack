@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 7
+  },
+  "gives": {
+    "id": "minecraft:diamond_nautilus_armor",
+    "count": 1
+  },
+  "xp": 12,
+  "reputation_discount": 0.2
+}

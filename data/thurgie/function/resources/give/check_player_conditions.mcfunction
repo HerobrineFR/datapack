@@ -1,0 +1,2 @@
+$execute if entity @p[tag=thurgie_resources,distance=..8] unless score @p[tag=thurgie_resources,distance=..8] thurgie_last_roll_$(item_id) = $week calendar store result storage thurgie:resources/interface roll int 1 run random value 1..20
+$execute if entity @p[tag=thurgie_resources,distance=..8] unless score @p[tag=thurgie_resources,distance=..8] thurgie_last_roll_$(item_id) = $week calendar run function thurgie:resources/give/player_give with storage thurgie:resources/interface

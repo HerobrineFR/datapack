@@ -1,0 +1,252 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:cold_jellyfish",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.cold_jellyfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.cold_jellyfish.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.cold_jellyfish.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.cold_jellyfish.lore_3",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:keldereau",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.keldereau"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.keldereau.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.keldereau.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.keldereau.lore_3",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.keldereau.lore_4",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.keldereau.lore_5",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:ice_scorpionfish",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.ice_scorpionfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.ice_scorpionfish.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ice_scorpionfish.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ice_scorpionfish.lore_3",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ice_scorpionfish.lore_4",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:lamprey",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.lamprey"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.lamprey.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.lamprey.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.lamprey.lore_3",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.lamprey.lore_4",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.lamprey.lore_5",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:ghost_anglerfish",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.ghost_anglerfish"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.ghost_anglerfish.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ghost_anglerfish.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ghost_anglerfish.lore_3",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ghost_anglerfish.lore_4",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.ghost_anglerfish.lore_5",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:cautious_lamprey",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.cautious_lamprey"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.cautious_lamprey.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.cautious_lamprey.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.cautious_lamprey.lore_3",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ice",
+          "weight": 30,
+          "conditions": [],
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 1,
+                "p": 3
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 64,
+                "minecraft:item_model": "herobrine:ice_cube",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.ice_cube"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

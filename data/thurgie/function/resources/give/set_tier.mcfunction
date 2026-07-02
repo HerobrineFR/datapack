@@ -1,0 +1,2 @@
+$data modify entity @s Item.components.minecraft:lore append from block $(tier_x) $(tier_y) $(tier_z) Items[$(roll_tier)].components.minecraft:lore[0]
+$tellmini @p[tag=thurgie_resources,distance=..8] <#79C782>ᛉ <gray>Vous avez tiré un <#E4F7E7>$(roll)</#E4F7E7> sur votre <font:minecraft:alkhemikal><white>dé de ressource</white></font>.</gray> ᛉ</#79C782>

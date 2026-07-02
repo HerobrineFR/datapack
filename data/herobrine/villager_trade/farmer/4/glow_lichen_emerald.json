@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "minecraft:glow_lichen",
+    "count": 4
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 1
+  },
+  "max_uses": 5,
+  "reputation_discount": 0.3,
+  "xp": 5
+}

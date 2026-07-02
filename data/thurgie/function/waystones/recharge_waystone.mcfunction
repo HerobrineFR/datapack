@@ -1,0 +1,1 @@
+execute if items entity @s weapon.mainhand minecraft:wild_armor_trim_smithing_template run item modify entity @s weapon.mainhand {"function":"minecraft:set_damage","damage":.125,add:true}

@@ -1,0 +1,1 @@
+scoreboard players add $solidBank collectif_ether 1

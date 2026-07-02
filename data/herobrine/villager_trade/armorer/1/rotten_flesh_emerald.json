@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:rotten_flesh",
+    "count": 12
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 1
+  },
+  "xp": 6,
+  "reputation_discount": 0.4
+}

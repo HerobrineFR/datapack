@@ -1,0 +1,197 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:piranha",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.piranha"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.piranha.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.piranha.lore_2",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:mangrove_lamprey",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.mangrove_lamprey"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.mangrove_lamprey.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.mangrove_lamprey.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.mangrove_lamprey.lore_3",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:alligator_gar",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.alligator_gar"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.alligator_gar.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.alligator_gar.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.alligator_gar.lore_3",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:arapaima",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.arapaima"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.arapaima.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.arapaima.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.arapaima.lore_3",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.arapaima.lore_4",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:waterlily_sole",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.waterlily_sole"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.waterlily_sole.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.waterlily_sole.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.waterlily_sole.lore_3",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.waterlily_sole.lore_4",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "herobrine:cautious_lamprey",
+                "minecraft:rarity": "epic",
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.cautious_lamprey"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.cautious_lamprey.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.cautious_lamprey.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.cautious_lamprey.lore_3",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

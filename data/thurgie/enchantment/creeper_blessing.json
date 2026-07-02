@@ -1,0 +1,55 @@
+{
+  "description": "Bénédiction des Siffleurs",
+  "supported_items": "minecraft:bow",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": true,
+          "damage_type": "minecraft:explosion",
+          "immune_blocks": "#herobrine:bow/unbreakable",
+          "knockback_multiplier": 1,
+          "radius": 1,
+          "create_fire": false,
+          "block_interaction": "mob",
+          "small_particle": {
+            "type": "minecraft:composter"
+          },
+          "large_particle": {
+            "type": "minecraft:composter"
+          },
+          "sound": "minecraft:entity.generic.explode"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "thurgie:enchants/destroy_arrow"
+        }
+      }
+    ],
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:entity.creeper.primed",
+          "volume": 10,
+          "pitch": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "container.*": {
+        "items": [
+          "minecraft:amethyst_shard"
+        ],
+        "predicates": {
+          "minecraft:custom_data": {
+            "rituel": "reflection"
+          }
+        }
+      }
+    }
+  }
+}

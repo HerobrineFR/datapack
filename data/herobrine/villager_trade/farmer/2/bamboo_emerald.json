@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:bamboo",
+    "count": 32
+  },
+  "gives": {
+    "id": "emerald",
+    "count": 4
+  },
+  "reputation_discount": 0.35,
+  "xp": 8
+}

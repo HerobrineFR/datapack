@@ -1,0 +1,11 @@
+{
+  "wants": {
+    "id": "emerald",
+    "count": 1
+  },
+  "gives": {
+    "id": "minecraft:campfire",
+    "count": 3
+  },
+  "xp": 2
+}

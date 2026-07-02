@@ -1,0 +1,3 @@
+execute at @s if score @n[type=marker,tag=thurgie_point_tp,distance=..60] waystone_timer matches 1.. run effect give @s blindness 2 0 true
+execute at @s if score @n[type=marker,tag=thurgie_point_tp,distance=..60] waystone_timer matches 1.. run playsound minecraft:ambient.basalt_deltas.mood master @s
+execute at @s if score @n[type=marker,tag=thurgie_point_tp,distance=..60] waystone_timer matches 1.. run function utils:tp_to_in_dim with entity @n[type=marker,tag=thurgie_point_tp,distance=..60] data.retraite

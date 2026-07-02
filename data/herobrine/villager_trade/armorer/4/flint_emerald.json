@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:flint",
+    "count": 3
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 2
+  },
+  "xp": 3,
+  "max_uses": 5
+}

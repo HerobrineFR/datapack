@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "l",
+    "extra": [
+      {
+        "text": " Jeu",
+        "font": "minecraft:default",
+        "color": "#4ABCD9"
+      }
+    ],
+    "font": "herobrine:icons"
+  },
+  "exit_action": {
+    "width": 100,
+    "label": "Fermer"
+  },
+  "external_title": {
+    "text": "l",
+    "extra": [
+      {
+        "text": " Jeu",
+        "font": "minecraft:default",
+        "color": "#4ABCD9"
+      }
+    ],
+    "font": "herobrine:icons"
+  },
+  "inputs": [],
+  "columns": 3,
+  "actions": [
+    {
+      "label": [
+        {
+          "object": "atlas",
+          "atlas": "items",
+          "sprite": "minecraft:item/diamond_sword"
+        },
+        " Modifier un item"
+      ],
+      "action": {
+        "type": "run_command",
+        "command": "lore"
+      },
+      "tooltip": "Vous permet de modifier la description, prix, ou apparence d'un item."
+    },
+    {
+      "label": [
+        {
+          "object": "atlas",
+          "atlas": "items",
+          "sprite": "minecraft:item/oak_hanging_sign"
+        },
+        " Discussion"
+      ],
+      "tooltip": "Vous permet de gérer vos préférences de discussion.",
+      "action": {
+        "type": "run_command",
+        "command": "speech settings"
+      }
+    },
+    {
+      "label": [
+        {
+          "object": "atlas",
+          "atlas": "items",
+          "sprite": "minecraft:item/shears"
+        },
+        " Outils"
+      ],
+      "action": {
+        "type": "run_command",
+        "command": "servertools"
+      }
+    },
+    {
+      "label": [
+        {
+          "object": "atlas",
+          "atlas": "items",
+          "sprite": "minecraft:item/spyglass"
+        },
+        " Paramètres"
+      ],
+      "tooltip": "Permet de modifier vos paramètres",
+      "action": {
+        "type": "run_command",
+        "command": "options"
+      }
+    }
+  ]
+}

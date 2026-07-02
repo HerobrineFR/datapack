@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:server_links",
+  "title": {
+    "translate": "menu.server_links.title",
+    "fallback": "Liens du serveur"
+  },
+  "exit_action": {
+    "label": "Retour",
+    "tooltip": "Retourner à la page précédente",
+    "action": {
+      "type": "show_dialog",
+      "dialog": "minecraft:quick_actions"
+    }
+  },
+  "columns": 2,
+  "button_width": 150
+}

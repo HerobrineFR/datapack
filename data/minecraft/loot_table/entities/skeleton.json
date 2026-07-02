@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Os de Mort-Vivant",
+                  "color": "gray"
+                },
+                "minecraft:lore": [
+                  "Un os pourrissant et usé arraché",
+                  "à un mort-vivant décomposé."
+                ]
+              }
+            },
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:entities/skeleton"
+}

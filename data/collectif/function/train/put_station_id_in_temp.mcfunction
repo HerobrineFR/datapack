@@ -1,0 +1,1 @@
+execute store result storage hb:train temp int 1 run scoreboard players get @s collectif_train

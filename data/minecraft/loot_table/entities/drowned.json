@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Écaille d'Immergé",
+                  "color": "gray"
+                },
+                "minecraft:lore": [
+                  "Une écaille bleutée, tirée",
+                  "du cadavre d'un immergé."
+                ]
+              }
+            },
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:prismarine_crystals"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:entities/drowned"
+}

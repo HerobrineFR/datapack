@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "equipment",
+  "pattern": [
+    "CCC",
+    "C C"
+  ],
+  "key": {
+    "C": "minecraft:iron_chain"
+  },
+  "result": "minecraft:chainmail_helmet"
+}

@@ -1,0 +1,1 @@
+schedule function herobrine:loops/30m 1800s

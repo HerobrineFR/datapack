@@ -1,0 +1,272 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod",
+                    "weight": 30,
+                    "functions": [
+                        {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:item_model": "herobrine:monkfish",
+                            "minecraft:item_name": {
+                            "translate": "item.herobrine.monkfish"
+                            },
+                            "minecraft:lore": [
+                            {
+                                "translate": "item.herobrine.monkfish.lore_1",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.monkfish.lore_2",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.monkfish.lore_3",
+                                "color": "gray"
+                            }
+                            ]
+                        }
+                        }
+                    ]
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod",
+                    "weight": 45,
+                    "functions": [
+                        {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:item_model": "herobrine:hake",
+                            "minecraft:item_name": {
+                            "translate": "item.herobrine.hake"
+                            },
+                            "minecraft:lore": [
+                            {
+                                "translate": "item.herobrine.hake.lore_1",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.hake.lore_2",
+                                "color": "gray"
+                            }
+                            ]
+                        }
+                        }
+                    ]
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod",
+                    "weight": 15,
+                    "functions": [
+                        {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:item_model": "herobrine:barracuda",
+                            "minecraft:item_name": {
+                            "translate": "item.herobrine.barracuda"
+                            },
+                            "minecraft:lore": [
+                            {
+                                "translate": "item.herobrine.barracuda.lore_1",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.barracuda.lore_2",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.barracuda.lore_3",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.barracuda.lore_4",
+                                "color": "gray"
+                            }
+                            ]
+                        }
+                        }
+                    ]
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod",
+                    "weight": 15,
+                    "functions": [
+                        {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:item_model": "herobrine:sole",
+                            "minecraft:item_name": {
+                            "translate": "item.herobrine.sole"
+                            },
+                            "minecraft:lore": [
+                            {
+                                "translate": "item.herobrine.sole.lore_1",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.sole.lore_2",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.sole.lore_3",
+                                "color": "gray"
+                            }
+                            ]
+                        }
+                        }
+                    ]
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 3,
+                    "functions": [
+                        {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:item_model": "herobrine:mutated_hake",
+                            "minecraft:item_name": {
+                            "translate": "item.herobrine.mutated_hake"
+                            },
+                            "minecraft:lore": [
+                            {
+                                "translate": "item.herobrine.mutated_hake.lore_1",
+                                "color": "gray"
+                            }
+                            ]
+                        }
+                        }
+                    ]
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tropical_fish",
+                    "weight": 10,
+                    "conditions": [
+                        {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "biomes": "herobrine:lotus_lake"
+                        }
+                        }
+                    ],
+                    "functions": [
+                        {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:food": {
+                            "nutrition": 9,
+                            "saturation": 15
+                            },
+                            "minecraft:consumable": {
+                            "animation": "eat",
+                            "on_consume_effects": [
+                                {
+                                "type": "minecraft:apply_effects",
+                                "effects": [
+                                    {
+                                    "id": "minecraft:saturation",
+                                    "amplifier": 1,
+                                    "duration": 1200,
+                                    "show_icon": true,
+                                    "show_particles": false
+                                    }
+                                ]
+                                }
+                            ]
+                            },
+                            "minecraft:item_model": "herobrine:lotus_pearl",
+                            "minecraft:item_name": {
+                            "translate": "item.herobrine.lotus_pearl"
+                            },
+                            "minecraft:lore": [
+                            {
+                                "translate": "item.herobrine.lotus_pearl.lore_1",
+                                "color": "gray",
+                                "shadow_color": 2145159901
+                            },
+                            {
+                                "translate": "item.herobrine.lotus_pearl.lore_2",
+                                "color": "gray",
+                                "shadow_color": 2145159901
+                            },
+                            {
+                                "translate": "item.herobrine.lotus_pearl.lore_3",
+                                "color": "gray",
+                                "shadow_color": 2145159901
+                            },
+                            {
+                                "translate": "item.herobrine.lotus_pearl.lore_4",
+                                "color": "gray",
+                                "shadow_color": 2145159901
+                            }
+                            ],
+                            "minecraft:rarity": "epic"
+                        }
+                        }
+                    ]
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:item_model": "herobrine:cuttlefish",
+                            "minecraft:item_name": {
+                            "translate": "item.herobrine.cuttlefish"
+                            },
+                            "minecraft:lore": [
+                            {
+                                "translate": "item.herobrine.cuttlefish.lore_1",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.cuttlefish.lore_2",
+                                "color": "gray"
+                            },
+                            {
+                                "translate": "item.herobrine.cuttlefish.lore_3",
+                                "color": "gray"
+                            }
+                            ]
+                        }
+                        }
+                    ]
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:salmon",
+                    "weight": 25
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod",
+                    "weight": 30
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tropical_fish",
+                    "weight": 2
+                    },
+                    {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pufferfish",
+                    "weight": 20
+                    }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+}

@@ -1,0 +1,21 @@
+{
+  "assets": {
+    "wild": "herobrine:entity/wolf/wolf_shiba_inu",
+    "tame": "herobrine:entity/wolf/wolf_shiba_inu_tame",
+    "angry": "herobrine:entity/wolf/wolf_shiba_inu_angry"
+  },
+  "baby_assets": {
+    "wild": "herobrine:entity/wolf/wolf_shiba_inu_baby",
+    "tame": "herobrine:entity/wolf/wolf_shiba_inu_tame_baby",
+    "angry": "herobrine:entity/wolf/wolf_shiba_inu_angry_baby"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#herobrine:spawns_shiba_inus"
+      },
+      "priority": 10
+    }
+  ]
+}

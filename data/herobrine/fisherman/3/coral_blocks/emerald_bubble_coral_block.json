@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "emerald",
+    "count": 2
+  },
+  "gives": {
+    "id": "minecraft:bubble_coral_block",
+    "count": 22
+  },
+  "max_uses": 6,
+  "reputation_discount": 0.5,
+  "xp": 3
+}

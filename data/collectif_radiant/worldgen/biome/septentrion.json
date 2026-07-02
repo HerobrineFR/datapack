@@ -1,0 +1,22 @@
+{
+  "attributes": {
+    "visual/sky_color": 10996474,
+    "visual/fog_color": 3166899,
+    "visual/water_fog_color": 11634103
+  },
+  "temperature": -1,
+  "downfall": 1,
+  "has_precipitation": true,
+  "temperature_modifier": "frozen",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "water_color": 11719648,
+    "grass_color": 14676209,
+    "foliage_color": 15331297,
+    "dry_foliage_color": 15331297
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

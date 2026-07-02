@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Suc de Gelfeu",
+                  "color": "gray"
+                },
+                "minecraft:lore": [
+                  "Une pâte épaisse et tiède, tirée",
+                  "d'un gelfeu ardent."
+                ]
+              }
+            },
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": -2
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:magma_cream"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:entities/magma_cube"
+}

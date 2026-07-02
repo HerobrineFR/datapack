@@ -1,0 +1,1 @@
+$data modify storage thurgie:resources resources append value {item_id:$(item_id),chest:{x:$(x),y:$(y),z:$(z)},roll_difficulty:$(roll_difficulty)}

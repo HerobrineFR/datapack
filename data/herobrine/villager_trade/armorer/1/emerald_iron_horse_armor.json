@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 3
+  },
+  "gives": {
+    "id": "minecraft:iron_horse_armor",
+    "count": 1
+  },
+  "reputation_discount": 0.3,
+  "xp": 5
+}

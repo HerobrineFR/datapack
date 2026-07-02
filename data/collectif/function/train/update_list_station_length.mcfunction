@@ -1,0 +1,1 @@
+execute store result score $length collectif_train run data get storage hb:train stations

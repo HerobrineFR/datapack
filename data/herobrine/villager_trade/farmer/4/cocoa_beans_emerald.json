@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:cocoa_beans",
+    "count": 32
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 1
+  },
+  "reputation_discount": 0.7,
+  "xp": 12
+}

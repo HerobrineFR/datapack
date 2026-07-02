@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 2
+  },
+  "gives": {
+    "id": "minecraft:magma_block",
+    "count": 16
+  },
+  "xp": 4,
+  "reputation_discount": 0.3
+}

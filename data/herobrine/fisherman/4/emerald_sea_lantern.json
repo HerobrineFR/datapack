@@ -1,0 +1,11 @@
+{
+  "wants": {
+    "id": "emerald",
+    "count": 1
+  },
+  "gives": {
+    "id": "minecraft:sea_lantern",
+    "count": 7
+  },
+  "xp": 4
+}

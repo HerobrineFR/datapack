@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:deepslate",
+    "count": 16
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 1
+  },
+  "xp": 3,
+  "reputation_discount": 0.4
+}

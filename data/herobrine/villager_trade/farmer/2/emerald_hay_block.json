@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 3
+  },
+  "gives": {
+    "id": "minecraft:hay_block",
+    "count": 8
+  },
+  "reputation_discount": 0.3,
+  "xp": 5
+}

@@ -1,0 +1,3 @@
+execute unless items entity @s weapon.mainhand minecraft:wild_armor_trim_smithing_template run tellraw @s {"text":"** Vous ne tenez pas de Porte-Roche.","color":"#D94755"}
+execute if items entity @s weapon.mainhand minecraft:wild_armor_trim_smithing_template if items entity @s weapon.mainhand *[minecraft:damage=6] run tellraw @s {"text":"** Votre Porte-Roche est déchargée.","color":"#D94755"}
+execute if items entity @s weapon.mainhand minecraft:wild_armor_trim_smithing_template unless items entity @s weapon.mainhand *[minecraft:damage=6] run function thurgie:waystones/activate_waystone

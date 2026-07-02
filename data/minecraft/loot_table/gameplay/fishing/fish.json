@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "protecteurs:gameplay/fishing/schnee",
+          "weight": 100,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "protecteurs:in_schnee"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "herobrine:fishing/mangrove",
+          "weight": 100,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "herobrine:fishing/is_in_mangrove"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "herobrine:fishing/crystal_cave",
+          "weight": 100,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "herobrine:fishing/is_in_crystal_cave"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "herobrine:fishing/ivory_tower_lake",
+          "weight": 100,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "herobrine:fishing/is_in_ivory_tower_lake"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/overworld",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:reference",
+                "name": "herobrine:is_in_fishing_zone"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}
