@@ -30,6 +30,7 @@ jobs:
                 packsquash_version: latest
                 options: |
                   output_file_path = "/tmp/build/build-artifact.zip"
+                  pack_directory = '.'
 
           - name: Upload artifact
             id: upload
