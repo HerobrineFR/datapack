@@ -29,7 +29,7 @@ jobs:
             with:
                 packsquash_version: latest
                 options: |
-                  output_file_path = "/tmp/build/build-artifact.zip"
+                  output_file_path = "/tmp/build-artifact.zip"
                   pack_directory = '.'
 
           - name: Upload artifact
@@ -37,5 +37,5 @@ jobs:
             uses: actions/upload-artifact@v4
             with:
               name: build-artifacts
-              path: tmp/build/
+              path: tmp/
                 
