@@ -1,7 +1,7 @@
 # Herobrine.fr - Datapack principal
 
 ### Information d'utilisation
-Ce pack de ressources est destiné à être utilisé dans le cadre du serveur de jeu de rôle Herobrine.fr. 
+Ce datapack est destiné à être utilisé dans le cadre du serveur de jeu de rôle Herobrine.fr. 
 Le code est cependant entièrement open source et peut être modifié et redistribué librement.
 
 ### Contribuer au projet
