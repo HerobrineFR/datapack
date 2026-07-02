@@ -90,16 +90,17 @@ jobs:
         run: |
           TAG="${GITHUB_REF_NAME}"
           echo "Creating or updating release for $TAG"
+          mv tmp/*.zip tmp/herobrine-datapack-$TAG.zip
+
           # Try to create the release first
           if ! gh release create "$TAG" \
             --title "$TAG" \
             --notes-file CHANGELOG.md \
             --latest \
             --verify-tag \
-            ./build/libs/$TAG/*; then
+            tmp/herobrine-datapack-$TAG.zip; then
 
             echo "Release already exists. Updating existing release..."
-            mv tmp/*.zip tmp/herobrine-datapack-$TAG.zip
 
             # Update release notes and mark as latest
             gh release edit "$TAG" \
