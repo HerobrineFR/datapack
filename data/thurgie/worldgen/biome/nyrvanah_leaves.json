@@ -1,12 +1,14 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 9433252,
+    "minecraft:visual/fog_color": 2531945,
+    "minecraft:visual/water_fog_color": 0
+  },
   "temperature": 0,
   "downfall": 0,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 9433252,
-    "fog_color": 2531945,
     "water_color": 1864152,
-    "water_fog_color": 0,
     "grass_color": 2126096,
     "foliage_color": 1864152
   },

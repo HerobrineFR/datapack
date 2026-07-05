@@ -1,13 +1,15 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 10996474,
+    "minecraft:visual/fog_color": 3166899,
+    "minecraft:visual/water_fog_color": 11634103
+  },
   "temperature": 10,
   "downfall": 0,
   "has_precipitation": false,
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 10996474,
-    "fog_color": 3166899,
     "water_color": 14129887,
-    "water_fog_color": 11634103,
     "grass_color": 6006480,
     "foliage_color": 8749535,
     "dry_foliage_color": 10588087

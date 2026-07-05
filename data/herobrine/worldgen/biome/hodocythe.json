@@ -1,15 +1,16 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 8297134,
+    "minecraft:visual/fog_color": 7899285,
+    "minecraft:visual/water_fog_color": 2455866
+  },
   "temperature": 3,
   "downfall": 10,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 8297134,
-    "fog_color": 7899285,
     "water_color": 2672720,
-    "water_fog_color": 2455866,
     "grass_color": 8235121,
-    "foliage_color": 6719056,
-    "music": []
+    "foliage_color": 6719056
   },
   "spawners": {},
   "spawn_costs": {},

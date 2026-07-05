@@ -1,45 +1,48 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 9716290,
+    "minecraft:visual/fog_color": 7213586,
+    "minecraft:visual/water_fog_color": 329011,
+    "minecraft:audio/ambient_sounds": {
+      "loop": "minecraft:ambient.soul_sand_valley.loop",
+      "mood": {
+        "sound": "minecraft:ambient.soul_sand_valley.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "minecraft:ambient.soul_sand_valley.additions",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.nether.soul_sand_valley",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      }
+    },
+    "minecraft:audio/music_volume": 1,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:crimson_spore"
+        },
+        "probability": 0.00625
+      }
+    ]
+  },
+  "temperature": 2,
   "downfall": 0,
+  "has_precipitation": false,
   "effects": {
+    "water_color": 12587281,
     "grass_color": 9737364,
     "foliage_color": 6710886,
-    "dry_foliage_color": 7697781,
-    "additions_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.additions",
-      "tick_chance": 0.0111
-    },
-    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
-    "fog_color": 7213586,
-    "mood_sound": {
-      "block_search_extent": 8,
-      "offset": 2,
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
-      "tick_delay": 6000
-    },
-    "music": [
-      {
-        "data": {
-          "max_delay": 24000,
-          "min_delay": 12000,
-          "replace_current_music": false,
-          "sound": "minecraft:music.nether.soul_sand_valley"
-        },
-        "weight": 1
-      }
-    ],
-    "music_volume": 1,
-    "particle": {
-      "options": {
-        "type": "minecraft:crimson_spore"
-      },
-      "probability": 0.00625
-    },
-    "sky_color": 9716290,
-    "water_color": 12587281,
-    "water_fog_color": 329011
+    "dry_foliage_color": 7697781
   },
-  "has_precipitation": false,
-  "temperature": 2,
   "spawners": {},
   "spawn_costs": {},
   "carvers": [],

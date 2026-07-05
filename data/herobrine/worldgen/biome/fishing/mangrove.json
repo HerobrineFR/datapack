@@ -1,21 +1,25 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 41943,
+    "minecraft:visual/fog_color": 7304712,
+    "minecraft:visual/water_fog_color": 10976000,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:firefly"
+        },
+        "probability": 0.01
+      }
+    ]
+  },
   "temperature": 30,
   "downfall": 5,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 41943,
-    "fog_color": 7304712,
     "water_color": 9806889,
-    "water_fog_color": 10976000,
     "grass_color": 6724661,
     "foliage_color": 5208616,
-    "dry_foliage_color": 5199107,
-    "particle": {
-      "options": {
-        "type": "minecraft:firefly"
-      },
-      "probability": 0.01
-    }
+    "dry_foliage_color": 5199107
   },
   "spawners": {},
   "spawn_costs": {},

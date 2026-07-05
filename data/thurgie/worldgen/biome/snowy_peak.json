@@ -1,31 +1,37 @@
 {
-    "temperature": -0.2,
-    "downfall": 0.8,
-    "has_precipitation": false,
-    "temperature_modifier": "frozen",
-    "effects": {
-        "sky_color": 0,
-        "fog_color": 14806527,
-        "water_color": 9362897,
-        "water_fog_color": 13760757,
-        "grass_color": 10403217,
-        "foliage_color": 15005935,
-        "ambient_sound": {
-            "sound_id": "minecraft:ambient.soul_sand_valley.loop",
-            "range": 1
-        },
-        "particle": {
-            "options": {
-                "type": "minecraft:falling_dust",
-                "block_state": {
-                    "Name": "minecraft:snow"
-                }
-            },
-            "probability": 0.00625
-        }
+  "attributes": {
+    "minecraft:visual/sky_color": 0,
+    "minecraft:visual/fog_color": 14806527,
+    "minecraft:visual/water_fog_color": 13760757,
+    "minecraft:audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "minecraft:ambient.soul_sand_valley.loop",
+        "range": 1
+      }
     },
-    "spawners": {},
-    "spawn_costs": {},
-    "carvers": [],
-    "features": []
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:falling_dust",
+          "block_state": {
+            "Name": "minecraft:snow"
+          }
+        },
+        "probability": 0.00625
+      }
+    ]
+  },
+  "temperature": -0.2,
+  "downfall": 0.8,
+  "has_precipitation": false,
+  "temperature_modifier": "frozen",
+  "effects": {
+    "water_color": 9362897,
+    "grass_color": 10403217,
+    "foliage_color": 15005935
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
 }

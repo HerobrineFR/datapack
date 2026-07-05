@@ -1,28 +1,34 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 0,
+    "minecraft:visual/fog_color": 11270368,
+    "minecraft:visual/water_fog_color": 4968248,
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": {
+          "sound_id": "minecraft:hb.ambient.wind"
+        },
+        "tick_delay": 2400,
+        "block_search_extent": 2,
+        "offset": 2
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:spore_blossom_air"
+        },
+        "probability": 0.00325
+      }
+    ]
+  },
   "temperature": 0.8,
   "downfall": 0.9,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 0,
-    "fog_color": 11270368,
     "water_color": 6346180,
-    "water_fog_color": 4968248,
     "grass_color": 6462248,
-    "foliage_color": 9095776,
-    "mood_sound": {
-      "sound": {
-        "sound_id": "minecraft:hb.ambient.wind"
-      },
-      "tick_delay": 2400,
-      "block_search_extent": 2,
-      "offset": 2
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:spore_blossom_air"
-      },
-      "probability": 0.00325
-    }
+    "foliage_color": 9095776
   },
   "spawners": {},
   "spawn_costs": {},

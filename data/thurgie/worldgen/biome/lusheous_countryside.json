@@ -1,29 +1,35 @@
 {
-    "temperature": 0.7,
-    "downfall": 0.6,
-    "has_precipitation": true,
-    "effects": {
-        "sky_color": 11071211,
-        "fog_color": 9810858,
-        "water_color": 12562579,
-        "water_fog_color": 11189918,
-        "grass_color": 10868374,
-        "foliage_color": 6271789,
-        "mood_sound": {
-            "sound": "minecraft:entity.parrot.fly",
-            "tick_delay": 400,
-            "block_search_extent": 10,
-            "offset": 5
-        },
-        "particle": {
-            "options": {
-                "type": "minecraft:campfire_cosy_smoke"
-            },
-            "probability": 0.000009
-        }
+  "attributes": {
+    "minecraft:visual/sky_color": 11071211,
+    "minecraft:visual/fog_color": 9810858,
+    "minecraft:visual/water_fog_color": 11189918,
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:entity.parrot.fly",
+        "tick_delay": 400,
+        "block_search_extent": 10,
+        "offset": 5
+      }
     },
-    "spawners": {},
-    "spawn_costs": {},
-    "carvers": [],
-    "features": []
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:campfire_cosy_smoke"
+        },
+        "probability": 0.000009
+      }
+    ]
+  },
+  "temperature": 0.7,
+  "downfall": 0.6,
+  "has_precipitation": true,
+  "effects": {
+    "water_color": 12562579,
+    "grass_color": 10868374,
+    "foliage_color": 6271789
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
 }
