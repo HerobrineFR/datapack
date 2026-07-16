@@ -3,19 +3,19 @@
   "clock": "minecraft:overworld",
   "tracks": {
     "minecraft:visual/fog_color": {
-      "modifier": "add",
+      "modifier": "alpha_blend",
       "keyframes": [
         {
           "ticks": 0,
-          "value": 15959584
+          "value": "#ff6a001a"
         },
         {
           "ticks": 14000,
-          "value": 32736
+          "value": "#3a88fee6"
         },
         {
           "ticks": 23000,
-          "value": 2043816
+          "value": "#0056d6ff"
         }
       ]
     },
