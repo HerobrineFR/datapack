@@ -1,0 +1,172 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.bubonic_jellyfish"
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:item_model": "herobrine:bubonic_jellyfish",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.bubonic_jellyfish.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.bubonic_jellyfish.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.bubonic_jellyfish.lore_3",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.volcanic_snail"
+                },
+                "minecraft:item_model": "herobrine:volcanic_snail",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.volcanic_snail.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.volcanic_snail.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.volcanic_snail.lore_3",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 14,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.atolla_jellyfish"
+                },
+                "minecraft:item_model": "herobrine:white_ray",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.atolla_jellyfish.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.atolla_jellyfish.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.atolla_jellyfish.lore_3",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.black_devil"
+                },
+                "minecraft:item_model": "herobrine:black_devil",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.black_devil.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.black_devil.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.black_devil.lore_3",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.black_devil.lore_4",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.herobrine.white_ray"
+                },
+                "minecraft:item_model": "herobrine:white_ray",
+                "minecraft:lore": [
+                  {
+                    "translate": "item.herobrine.white_ray.lore_1",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.white_ray.lore_2",
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.herobrine.white_ray.lore_3",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 40,
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

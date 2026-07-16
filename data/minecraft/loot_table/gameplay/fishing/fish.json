@@ -30,6 +30,18 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "herobrine:fishing/volcanic_highlands",
+          "weight": 100,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "herobrine:fishing/is_in_volcanic_highlands"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "herobrine:fishing/crystal_cave",
           "weight": 100,
           "quality": 0,
