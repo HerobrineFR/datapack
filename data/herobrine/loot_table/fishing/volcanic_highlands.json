@@ -76,7 +76,7 @@
                 "minecraft:item_name": {
                   "translate": "item.herobrine.atolla_jellyfish"
                 },
-                "minecraft:item_model": "herobrine:white_ray",
+                "minecraft:item_model": "herobrine:atolla_jellyfish",
                 "minecraft:lore": [
                   {
                     "translate": "item.herobrine.atolla_jellyfish.lore_1",
