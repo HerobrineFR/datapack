@@ -1,0 +1,51 @@
+{
+  "attributes": {
+    "minecraft:gameplay/increased_fire_burnout": true,
+    "minecraft:visual/block_light_tint": "#e32400",
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:small_gust"
+        },
+        "probability": 0.0008
+      },
+      {
+        "particle": {
+          "type": "minecraft:ash"
+        },
+        "probability": 0.05
+      }
+    ],
+    "minecraft:visual/fog_start_distance": 1,
+    "minecraft:visual/fog_end_distance": 40,
+    "minecraft:visual/sky_light_factor": 0.5,
+    "minecraft:visual/sky_color": "#caf0fe",
+    "minecraft:audio/ambient_sounds": {
+      "loop": "minecraft:ambient.basalt_deltas.loop",
+      "mood": {
+        "sound": "minecraft:ambient.basalt_deltas.mood",
+        "tick_delay": 1600,
+        "block_search_extent": 3,
+        "offset": 0
+      },
+      "additions": {
+        "sound": "minecraft:ambient.basalt_deltas.additions",
+        "tick_chance": 0.02
+      }
+    },
+    "minecraft:visual/fog_color": "#e0a786"
+  },
+  "temperature": 30,
+  "downfall": 5,
+  "has_precipitation": false,
+  "effects": {
+    "water_color": "#94e3fe",
+    "grass_color": "#9aa60e",
+    "foliage_color": "#d95000",
+    "dry_foliage_color": "#b51a00"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}
