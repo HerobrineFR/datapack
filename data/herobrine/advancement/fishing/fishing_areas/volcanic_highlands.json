@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": "Lac Volcanique",
+    "description": "Découvrez la zone du lac volcanique",
+    "background": "minecraft:block/stripped_spruce_log_top"
+  },
+  "parent": "herobrine:fishing/root",
+  "criteria": {
+    "find_area": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "#herobrine:fishing/unlocks_volcanic_highlands_loots"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "find_area"
+    ]
+  ]
+}
