@@ -29,7 +29,7 @@
     "minecraft:gameplay/villager_activity": {
       "keyframes": [
         {
-          "ticks": 10,
+          "ticks": 1600,
           "value": "minecraft:idle"
         },
         {
@@ -37,11 +37,11 @@
           "value": "minecraft:work"
         },
         {
-          "ticks": 9000,
+          "ticks": 2500,
           "value": "minecraft:meet"
         },
         {
-          "ticks": 11000,
+          "ticks": 11900,
           "value": "minecraft:idle"
         },
         {
