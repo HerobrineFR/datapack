@@ -1,0 +1,1 @@
+function massilia:water_plant/waste/toggle/processes {clock:"massilia:water_plant/waste", storage:"massilia:water_plant/waste"}
