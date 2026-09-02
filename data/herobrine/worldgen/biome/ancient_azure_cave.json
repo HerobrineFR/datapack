@@ -1,0 +1,22 @@
+{
+  "attributes": {
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:ominous_spawning"
+        },
+        "probability": 0.001
+      }
+    ]
+  },
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "water_color": "#53d5fd",
+    "grass_color": "#265D73",
+    "foliage_color": "#265D73"
+  },
+  "carvers": [],
+  "features": []
+}
