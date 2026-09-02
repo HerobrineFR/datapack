@@ -17,6 +17,8 @@
     "grass_color": "#265D73",
     "foliage_color": "#265D73"
   },
+  "spawners": {},
+  "spawn_costs": {},
   "carvers": [],
   "features": []
 }
