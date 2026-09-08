@@ -14,7 +14,7 @@
   "has_precipitation": false,
   "effects": {
     "water_color": "#53d5fd",
-    "grass_color": "#265D73",
+    "grass_color": "#3582B2",
     "foliage_color": "#265D73"
   },
   "spawners": {},
