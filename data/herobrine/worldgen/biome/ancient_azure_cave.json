@@ -7,7 +7,13 @@
         },
         "probability": 0.001
       }
-    ]
+    ],
+    "minecraft:visual/ambient_light_color": "#2697cf",
+    "minecraft:visual/block_light_tint": "#aef9f0",
+    "minecraft:audio/firefly_bush_sounds": true,
+    "minecraft:visual/fog_color": "#3bc3db",
+    "minecraft:visual/fog_start_distance": 5,
+    "minecraft:visual/fog_end_distance": 85
   },
   "temperature": 0,
   "downfall": 0,
@@ -15,7 +21,7 @@
   "effects": {
     "water_color": "#53d5fd",
     "grass_color": "#3582B2",
-    "foliage_color": "#265D73"
+    "foliage_color": "#3582B2"
   },
   "spawners": {},
   "spawn_costs": {},
