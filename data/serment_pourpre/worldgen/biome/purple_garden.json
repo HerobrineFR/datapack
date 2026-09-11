@@ -1,0 +1,37 @@
+{
+  "attributes": {
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:ominous_spawning"
+        },
+        "probability": 0.001
+      }
+    ],
+    "minecraft:visual/fog_color": 7999546,
+    "minecraft:visual/fog_start_distance": -16,
+    "minecraft:visual/fog_end_distance": 90,
+    "minecraft:visual/ambient_light_color": 7999546,
+    "minecraft:visual/block_light_tint": 7999546,
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:music.overworld.cherry_grove",
+        "tick_delay": 0,
+        "block_search_extent": 0,
+        "offset": 0
+      }
+    }
+  },
+  "downfall": 1,
+  "has_precipitation": true,
+  "temperature": 5,
+  "effects": {
+    "water_color": 11857390,
+    "grass_color": 10012722,
+    "foliage_color": 6493312
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}
