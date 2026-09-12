@@ -8,11 +8,11 @@
         "probability": 0.001
       }
     ],
-    "minecraft:visual/fog_color": 7999546,
-    "minecraft:visual/fog_start_distance": -16,
-    "minecraft:visual/fog_end_distance": 90,
-    "minecraft:visual/ambient_light_color": 7999546,
-    "minecraft:visual/block_light_tint": 7999546,
+    "minecraft:visual/fog_color": 7164527,
+    "minecraft:visual/fog_start_distance": 1,
+    "minecraft:visual/fog_end_distance": 110,
+    "minecraft:visual/ambient_light_color": 7164527,
+    "minecraft:visual/block_light_tint": 6765672,
     "minecraft:audio/ambient_sounds": {
       "mood": {
         "sound": "minecraft:music.overworld.cherry_grove",
