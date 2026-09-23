@@ -4,7 +4,7 @@
     "minecraft:visual/fog_start_distance": -16,
     "minecraft:visual/fog_end_distance": 20,
     "minecraft:visual/sky_color": 1573378,
-    "minecraft:gameplay/sky_light_level": 10,
+    "minecraft:visual/sky_light_factor": 0.67,
     "minecraft:visual/sky_light_color": 1972762,
     "minecraft:visual/block_light_tint": 4522498,
     "minecraft:visual/ambient_particles": [
