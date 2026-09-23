@@ -1,0 +1,19 @@
+{
+  "attributes": {
+    "minecraft:visual/block_light_tint": 25492,
+    "minecraft:visual/water_fog_color": 1091275
+  },
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "water_color": 5104127,
+    "grass_color": 8118521,
+    "foliage_color": 46079,
+    "dry_foliage_color": 1475284
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}
