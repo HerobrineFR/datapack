@@ -1,1 +1,1 @@
-function collectif_radiant:tower/ether_machine/retrieve/process {clock:"collectif_radiant:tower/ether", storage:"collectif_radiant:tower/ether"}
+function collectif_radiant:tower/ether/retrieve/process {clock:"collectif_radiant:tower/ether", storage:"collectif_radiant:tower/ether"}
