@@ -1,6 +1,9 @@
 {
   "attributes": {
-    "minecraft:visual/fog_color": 1181704,
+    "minecraft:visual/fog_color": {
+      "modifier": "override",
+      "argument": 1181704
+    },
     "minecraft:visual/fog_start_distance": -16,
     "minecraft:visual/fog_end_distance": 20,
     "minecraft:visual/sky_color": 1573378,
