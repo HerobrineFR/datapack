@@ -7,15 +7,15 @@
       "keyframes": [
         {
           "ticks": 0,
-          "value": "#C1D9FEE6"
+          "value": "#c1d9fe33"
         },
         {
           "ticks": 14000,
-          "value": "#3a88fee6"
+          "value": "#3a88fe33"
         },
         {
           "ticks": 23000,
-          "value": "#0056d6ff"
+          "value": "#0056d633"
         }
       ]
     },
