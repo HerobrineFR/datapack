@@ -1,0 +1,34 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": 9016468,
+    "minecraft:visual/sky_light_color": 8237232,
+    "minecraft:visual/fog_color": 4821655,
+    "minecraft:visual/fog_start_distance": -5,
+    "minecraft:visual/fog_end_distance": 30,
+    "minecraft:visual/cloud_fog_end_distance": 30,
+    "minecraft:visual/sunrise_sunset_color": 5434367,
+    "minecraft:visual/ambient_light_color": 6127230,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:white_ash"
+        },
+        "probability": 0.45
+      }
+    ],
+    "minecraft:visual/block_light_tint": 504758
+  },
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "water_color": 16777215,
+    "grass_color": 6583151,
+    "foliage_color": 7708579,
+    "dry_foliage_color": 6846589
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}
