@@ -1,7 +1,7 @@
 {
-  "condition": "minecraft:entity_scores",
   "entity": "this",
   "scores": {
     "clan_grade_joueur": 1
-  }
+  },
+  "type": "minecraft:entity_scores"
 }

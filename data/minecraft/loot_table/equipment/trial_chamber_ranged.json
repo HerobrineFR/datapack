@@ -9,7 +9,7 @@
           "value": "minecraft:equipment/trial_chamber"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "bonus_rolls": 0.0,
@@ -21,32 +21,32 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
-                "minecraft:power": 1.0
+                "minecraft:power": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:bow"
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "enchantments": {
-                "minecraft:punch": 1.0
+                "minecraft:punch": 1
               },
-              "function": "minecraft:set_enchantments"
+              "type": "minecraft:set_enchantments"
             }
           ],
           "name": "minecraft:bow"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:equipment/trial_chamber_ranged"

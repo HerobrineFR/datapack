@@ -1,7 +1,7 @@
 {
-  "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "team": "fishing_hook_schnee"
-  }
+    "minecraft:team": "fishing_hook_schnee"
+  },
+  "type": "minecraft:entity_properties"
 }

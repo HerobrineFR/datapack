@@ -1,7 +1,7 @@
 {
-  "condition": "minecraft:entity_scores",
   "entity": "this",
   "scores": {
     "zodiaque": 11
-  }
+  },
+  "type": "minecraft:entity_scores"
 }

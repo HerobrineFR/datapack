@@ -14,7 +14,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "damage": {
@@ -22,14 +22,14 @@
                 "max": 0.25,
                 "min": 0.0
               },
-              "function": "minecraft:set_damage"
+              "type": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:bow"
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "damage": {
@@ -37,7 +37,7 @@
                 "max": 0.25,
                 "min": 0.0
               },
-              "function": "minecraft:set_damage"
+              "type": "minecraft:set_damage"
             }
           ],
           "name": "minecraft:fishing_rod"
@@ -47,7 +47,7 @@
           "name": "minecraft:nautilus_shell"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:gameplay/fishing/treasure"

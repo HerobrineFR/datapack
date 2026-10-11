@@ -1,25 +1,10 @@
 {
-  "condition": "minecraft:any_of",
+  "type": "minecraft:all_of",
   "terms": [
-    {
-      "condition": "minecraft:reference",
-      "name": "protecteurs:in_schnee"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "herobrine:fishing/is_in_mangrove"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "herobrine:fishing/is_in_ivory_tower_lake"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "herobrine:fishing/is_in_crystal_cave"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "herobrine:fishing/is_in_volcanic_highlands"
-    }
+    "herobrine:fishing/is_in_volcanic_highlands",
+    "herobrine:fishing/is_in_crystal_cave",
+    "herobrine:fishing/is_in_ivory_tower_lake",
+    "herobrine:fishing/is_in_mangrove",
+    "protecteurs:in_schnee"
   ]
 }

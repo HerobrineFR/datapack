@@ -1,6 +1,6 @@
 {
-  "condition": "minecraft:entity_scores",
   "entity": "this",
+  "type": "minecraft:entity_scores",
   "scores": {
     "races": 1
   }

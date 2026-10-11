@@ -1,21 +1,18 @@
 {
-  "condition": "minecraft:all_of",
   "terms": [
+    "thurgie:is_player",
     {
-      "condition": "minecraft:reference",
-      "name": "thurgie:is_player"
-    },
-    {
-      "condition": "minecraft:inverted",
+      "type": "minecraft:inverted",
       "term": {
-        "condition": "minecraft:entity_scores",
+        "type": "minecraft:entity_scores",
         "entity": "this",
         "scores": {
           "clan_grade_joueur": {
-            "min": 1
+            "min": 0
           }
         }
       }
     }
-  ]
+  ],
+  "type": "minecraft:all_of"
 }

@@ -1,11 +1,12 @@
 {
-  "condition": "minecraft:entity_properties",
   "entity": "this",
+  "type": "minecraft:entity_properties",
   "predicate": {
-    "nbt": {
-        "Tags": [
-            "clan_joueur"
-        ]
+    "minecraft:entity_tags": {
+      "any_of": [],
+      "all_of": [
+        "clan_joueur"
+      ]
     }
   }
 }

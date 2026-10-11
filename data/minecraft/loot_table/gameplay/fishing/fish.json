@@ -9,75 +9,45 @@
           "value": "protecteurs:gameplay/fishing/schnee",
           "weight": 100,
           "quality": 0,
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "protecteurs:in_schnee"
-            }
-          ]
+          "condition": "protecteurs:in_schnee"
         },
         {
           "type": "minecraft:loot_table",
           "value": "herobrine:fishing/mangrove",
           "weight": 100,
           "quality": 0,
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "herobrine:fishing/is_in_mangrove"
-            }
-          ]
+          "condition": "herobrine:fishing/is_in_mangrove"
         },
         {
           "type": "minecraft:loot_table",
           "value": "herobrine:fishing/volcanic_highlands",
           "weight": 100,
           "quality": 0,
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "herobrine:fishing/is_in_volcanic_highlands"
-            }
-          ]
+          "condition": "herobrine:fishing/is_in_volcanic_highlands"
         },
         {
           "type": "minecraft:loot_table",
           "value": "herobrine:fishing/crystal_cave",
           "weight": 100,
           "quality": 0,
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "herobrine:fishing/is_in_crystal_cave"
-            }
-          ]
+          "condition": "herobrine:fishing/is_in_crystal_cave"
         },
         {
           "type": "minecraft:loot_table",
           "value": "herobrine:fishing/ivory_tower_lake",
           "weight": 100,
           "quality": 0,
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "herobrine:fishing/is_in_ivory_tower_lake"
-            }
-          ]
+          "condition": "herobrine:fishing/is_in_ivory_tower_lake"
         },
         {
           "type": "minecraft:loot_table",
           "value": "minecraft:gameplay/fishing/overworld",
           "weight": 1,
           "quality": 0,
-          "conditions": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:reference",
-                "name": "herobrine:is_in_fishing_zone"
-              }
+          "condition": {
+              "type": "minecraft:inverted",
+              "term": "herobrine:is_in_fishing_zone"
             }
-          ]
         }
       ],
       "rolls": 1

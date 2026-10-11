@@ -6,14 +6,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:wind_charged"
             }
           ],
@@ -21,14 +21,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:oozing"
             }
           ],
@@ -36,14 +36,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:weaving"
             }
           ],
@@ -51,14 +51,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:infested"
             }
           ],
@@ -66,14 +66,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:strength"
             }
           ],
@@ -81,14 +81,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:swiftness"
             }
           ],
@@ -96,46 +96,46 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:slow_falling"
             }
           ],
           "name": "minecraft:lingering_potion"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:arrow"
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:poison"
             }
           ],
@@ -143,14 +143,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:strong_slowness"
             }
           ],
@@ -158,36 +158,36 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:fire_charge"
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:wind_charge"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:spawners/trial_chamber/items_to_drop_when_ominous"

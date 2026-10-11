@@ -9,9 +9,9 @@
                     "type": "minecraft:item",
                     "name": "minecraft:cod",
                     "weight": 30,
-                    "functions": [
+                    "modifier": [
                         {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                             "minecraft:item_model": "herobrine:monkfish",
                             "minecraft:item_name": {
@@ -39,9 +39,9 @@
                     "type": "minecraft:item",
                     "name": "minecraft:cod",
                     "weight": 45,
-                    "functions": [
+                    "modifier": [
                         {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                             "minecraft:item_model": "herobrine:hake",
                             "minecraft:item_name": {
@@ -65,9 +65,9 @@
                     "type": "minecraft:item",
                     "name": "minecraft:cod",
                     "weight": 15,
-                    "functions": [
+                    "modifier": [
                         {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                             "minecraft:item_model": "herobrine:barracuda",
                             "minecraft:item_name": {
@@ -99,9 +99,9 @@
                     "type": "minecraft:item",
                     "name": "minecraft:cod",
                     "weight": 15,
-                    "functions": [
+                    "modifier": [
                         {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                             "minecraft:item_model": "herobrine:sole",
                             "minecraft:item_name": {
@@ -129,9 +129,9 @@
                     "type": "minecraft:item",
                     "name": "minecraft:rotten_flesh",
                     "weight": 3,
-                    "functions": [
+                    "modifier": [
                         {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                             "minecraft:item_model": "herobrine:mutated_hake",
                             "minecraft:item_name": {
@@ -151,17 +151,15 @@
                     "type": "minecraft:item",
                     "name": "minecraft:tropical_fish",
                     "weight": 10,
-                    "conditions": [
-                        {
-                        "condition": "minecraft:location_check",
+                    "condition": {
+                        "type": "minecraft:location_check",
                         "predicate": {
                             "biomes": "herobrine:lotus_lake"
                         }
-                        }
-                    ],
-                    "functions": [
+                    },
+                    "modifier": [
                         {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                             "minecraft:food": {
                             "nutrition": 9,
@@ -219,9 +217,9 @@
                     "type": "minecraft:item",
                     "name": "minecraft:cod",
                     "weight": 10,
-                    "functions": [
+                    "modifier": [
                         {
-                        "function": "minecraft:set_components",
+                        "type": "minecraft:set_components",
                         "components": {
                             "minecraft:item_model": "herobrine:cuttlefish",
                             "minecraft:item_name": {
