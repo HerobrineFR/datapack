@@ -14,7 +14,7 @@
         "particle": {
           "type": "minecraft:falling_dust",
           "block_state": {
-            "Name": "minecraft:snow"
+            "id": "minecraft:snow"
           }
         },
         "probability": 0.00625

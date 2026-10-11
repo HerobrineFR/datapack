@@ -1,84 +1,57 @@
 {
-  "aquifers_enabled": false,
   "default_block": {
-    "Name": "minecraft:netherrack"
+    "id": "minecraft:netherrack"
   },
   "default_fluid": {
-    "Name": "minecraft:lava",
-    "Properties": {
-      "level": "0"
-    }
+    "id": "minecraft:lava"
   },
   "disable_mob_generation": false,
   "legacy_random_source": true,
   "noise": {
     "height": 256,
-    "min_y": 0,
-    "size_horizontal": 1,
-    "size_vertical": 2
+    "min_y": 0
   },
   "noise_router": {
-    "barrier": 0,
     "continents": 0,
     "depth": 0,
     "erosion": 0,
-    "preliminary_surface_level": "minecraft:end/base_3d_noise",
+    "chunk_surface_level": "minecraft:end/base_3d_noise",
     "final_density": {
       "type": "minecraft:squeeze",
-      "argument": {
+      "input": {
         "type": "minecraft:mul",
-        "argument1": 0.64,
-        "argument2": {
+        "left": 0.64,
+        "right": {
           "type": "minecraft:interpolated",
-          "argument": {
-            "type": "minecraft:blend_density",
-            "argument": {
-              "type": "minecraft:add",
-              "argument1": 2.5,
-              "argument2": {
-                "type": "minecraft:mul",
-                "argument1": {
-                  "type": "minecraft:y_clamped_gradient",
-                  "from_value": 0,
-                  "from_y": -8,
-                  "to_value": 1,
-                  "to_y": 24
-                },
-                "argument2": {
-                  "type": "minecraft:add",
-                  "argument1": -2.5,
-                  "argument2": {
-                    "type": "minecraft:add",
-                    "argument1": 0.9375,
-                    "argument2": {
-                      "type": "minecraft:mul",
-                      "argument1": {
-                        "type": "minecraft:y_clamped_gradient",
-                        "from_value": 1,
-                        "from_y": 104,
-                        "to_value": 0,
-                        "to_y": 128
-                      },
-                      "argument2": {
-                        "type": "minecraft:add",
-                        "argument1": -0.9375,
-                        "argument2": "minecraft:nether/base_3d_noise"
-                      }
-                    }
-                  }
-                }
+          "input": {
+            "type": "minecraft:add",
+            "left": 2.5,
+            "right": {
+              "type": "minecraft:mul",
+              "left": {
+                "type": "minecraft:gradient",
+                "axis": "y",
+                "tiling": "clamp_to_edge",
+                "from_coordinate": 104,
+                "to_coordinate": 128,
+                "from_value": 1,
+                "to_value": 0
+              },
+              "right": {
+                "type": "minecraft:add",
+                "left": -0.9375,
+                "right": "minecraft:nether/base_3d_noise"
               }
             }
-          }
+          },
+          "cell_size_xz": 16,
+          "cell_size_y": 16
         }
       }
     },
-    "fluid_level_floodedness": 0,
-    "fluid_level_spread": 0,
-    "lava": 0,
     "ridges": 0,
     "temperature": {
-      "type": "minecraft:shifted_noise",
+      "type": "minecraft:noise",
       "noise": "minecraft:temperature",
       "shift_x": "minecraft:shift_x",
       "shift_y": 0,
@@ -87,41 +60,35 @@
       "y_scale": 0
     },
     "vegetation": {
-      "type": "minecraft:shifted_noise",
+      "type": "minecraft:noise",
       "noise": "minecraft:vegetation",
       "shift_x": "minecraft:shift_x",
       "shift_y": 0,
       "shift_z": "minecraft:shift_z",
       "xz_scale": 0.25,
       "y_scale": 0
-    },
-    "vein_gap": 0,
-    "vein_ridged": 0,
-    "vein_toggle": 0
+    }
   },
-  "ore_veins_enabled": false,
   "sea_level": 32,
   "spawn_target": [],
-  "surface_rule": {
+  "material_rule": {
     "type": "minecraft:sequence",
     "sequence": [
       {
         "type": "minecraft:condition",
         "if_true": {
           "type": "minecraft:vertical_gradient",
-          "false_at_and_above": {
-            "above_bottom": 5
-          },
           "random_name": "minecraft:bedrock_floor",
           "true_at_and_below": {
             "above_bottom": 0
+          },
+          "false_at_and_above": {
+            "above_bottom": 5
           }
         },
         "then_run": {
           "type": "minecraft:block",
-          "result_state": {
-            "Name": "minecraft:bedrock"
-          }
+          "result_state": "minecraft:bedrock"
         }
       },
       {
@@ -130,20 +97,18 @@
           "type": "minecraft:not",
           "invert": {
             "type": "minecraft:vertical_gradient",
-            "false_at_and_above": {
-              "below_top": 0
-            },
             "random_name": "minecraft:bedrock_roof",
             "true_at_and_below": {
               "below_top": 5
+            },
+            "false_at_and_above": {
+              "below_top": 0
             }
           }
         },
         "then_run": {
           "type": "minecraft:block",
-          "result_state": {
-            "Name": "minecraft:bedrock"
-          }
+          "result_state": "minecraft:bedrock"
         }
       },
       {
@@ -158,9 +123,7 @@
         },
         "then_run": {
           "type": "minecraft:block",
-          "result_state": {
-            "Name": "minecraft:netherrack"
-          }
+          "result_state": "minecraft:netherrack"
         }
       },
       {
@@ -186,8 +149,8 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:basalt",
-                  "Properties": {
+                  "id": "minecraft:basalt",
+                  "properties": {
                     "axis": "y"
                   }
                 }
@@ -238,9 +201,7 @@
                         },
                         "then_run": {
                           "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "minecraft:gravel"
-                          }
+                          "result_state": "minecraft:gravel"
                         }
                       }
                     }
@@ -256,8 +217,8 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:basalt",
-                        "Properties": {
+                        "id": "minecraft:basalt",
+                        "properties": {
                           "axis": "y"
                         }
                       }
@@ -265,9 +226,7 @@
                   },
                   {
                     "type": "minecraft:block",
-                    "result_state": {
-                      "Name": "minecraft:blackstone"
-                    }
+                    "result_state": "minecraft:blackstone"
                   }
                 ]
               }
@@ -308,16 +267,12 @@
                     },
                     "then_run": {
                       "type": "minecraft:block",
-                      "result_state": {
-                        "Name": "minecraft:soul_sand"
-                      }
+                      "result_state": "minecraft:soul_sand"
                     }
                   },
                   {
                     "type": "minecraft:block",
-                    "result_state": {
-                      "Name": "minecraft:soul_soil"
-                    }
+                    "result_state": "minecraft:soul_soil"
                   }
                 ]
               }
@@ -367,9 +322,7 @@
                         },
                         "then_run": {
                           "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "minecraft:gravel"
-                          }
+                          "result_state": "minecraft:gravel"
                         }
                       }
                     }
@@ -384,16 +337,12 @@
                     },
                     "then_run": {
                       "type": "minecraft:block",
-                      "result_state": {
-                        "Name": "minecraft:soul_sand"
-                      }
+                      "result_state": "minecraft:soul_sand"
                     }
                   },
                   {
                     "type": "minecraft:block",
-                    "result_state": {
-                      "Name": "minecraft:soul_soil"
-                    }
+                    "result_state": "minecraft:soul_soil"
                   }
                 ]
               }
@@ -434,8 +383,8 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                    "Name": "minecraft:lava",
-                    "Properties": {
+                    "id": "minecraft:lava",
+                    "properties": {
                       "level": "0"
                     }
                   }
@@ -484,16 +433,12 @@
                         },
                         "then_run": {
                           "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "minecraft:warped_wart_block"
-                          }
+                          "result_state": "minecraft:warped_wart_block"
                         }
                       },
                       {
                         "type": "minecraft:block",
-                        "result_state": {
-                          "Name": "minecraft:warped_nylium"
-                        }
+                        "result_state": "minecraft:warped_nylium"
                       }
                     ]
                   }
@@ -542,16 +487,10 @@
                         },
                         "then_run": {
                           "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "minecraft:nether_wart_block"
-                          }
-                        }
-                      },
-                      {
-                        "type": "minecraft:block",
-                        "result_state": {
-                          "Name": "minecraft:crimson_nylium"
-                        }
+                          "result_state": "minecraft:nether_wart_block"
+                        },
+                        "": "minecraft:block",
+                        "result_state": "minecraft:crimson_nylium"
                       }
                     ]
                   }
@@ -625,18 +564,14 @@
                           },
                           "then_run": {
                             "type": "minecraft:block",
-                            "result_state": {
-                              "Name": "minecraft:soul_sand"
-                            }
+                            "result_state": "minecraft:soul_sand"
                           }
                         }
                       }
                     },
                     {
                       "type": "minecraft:block",
-                      "result_state": {
-                        "Name": "minecraft:netherrack"
-                      }
+                      "result_state": "minecraft:netherrack"
                     }
                   ]
                 }
@@ -697,9 +632,7 @@
                           },
                           "then_run": {
                             "type": "minecraft:block",
-                            "result_state": {
-                              "Name": "minecraft:gravel"
-                            }
+                            "result_state": "minecraft:gravel"
                           }
                         },
                         {
@@ -712,9 +645,7 @@
                           },
                           "then_run": {
                             "type": "minecraft:block",
-                            "result_state": {
-                              "Name": "minecraft:gravel"
-                            }
+                            "result_state": "minecraft:gravel"
                           }
                         }
                       ]
@@ -728,9 +659,7 @@
       },
       {
         "type": "minecraft:block",
-        "result_state": {
-          "Name": "minecraft:netherrack"
-        }
+        "result_state": "minecraft:netherrack"
       }
     ]
   }
