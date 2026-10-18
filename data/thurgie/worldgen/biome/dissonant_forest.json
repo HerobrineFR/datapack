@@ -1,0 +1,39 @@
+{
+  "attributes": {
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:dripping_obsidian_tear"
+        },
+        "probability": 0.0001
+      }
+    ],
+    "minecraft:visual/fog_color": "#450e59",
+    "minecraft:visual/fog_start_distance": 0.1,
+    "minecraft:visual/fog_end_distance": 40,
+    "minecraft:visual/sky_light_factor": {
+      "modifier": "override",
+      "argument": 0.3
+    },
+    "minecraft:visual/block_light_tint": "#e32400",
+    "minecraft:visual/cloud_fog_end_distance": 6000,
+    "minecraft:visual/cloud_color": [
+      1,
+      0,
+      1,
+      0.45
+    ],
+    "minecraft:visual/cloud_height": 600,
+    "minecraft:visual/sky_color": "#61177c"
+  },
+  "temperature": -30,
+  "downfall": 0,
+  "has_precipitation": true,
+  "effects": {
+    "water_color": 0
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}
