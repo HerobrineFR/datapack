@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "minecraft:visual/block_light_tint": 111164
+  },
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "water_color": 0
+  },
+  "carvers": {
+    "type": ""
+  },
+  "features": []
+}
