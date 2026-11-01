@@ -8,8 +8,6 @@
   "effects": {
     "water_color": 0
   },
-  "carvers": {
-    "type": ""
-  },
+  "carvers": [],
   "features": []
 }
