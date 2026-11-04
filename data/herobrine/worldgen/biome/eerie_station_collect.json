@@ -8,6 +8,8 @@
   "effects": {
     "water_color": 0
   },
+  "spawners": {},
+  "spawn_costs": {},
   "carvers": [],
   "features": []
 }
