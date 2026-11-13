@@ -1,0 +1,25 @@
+{
+  "attributes": {
+    "minecraft:visual/fog_color": "#53d5fd",
+    "minecraft:visual/fog_start_distance": 0.3,
+    "minecraft:visual/fog_end_distance": 64,
+    "minecraft:visual/sky_light_factor": {
+      "modifier": "override",
+      "argument": 0.4
+    },
+    "minecraft:visual/block_light_tint": "#ff6251",
+    "minecraft:visual/sky_color": "#000000",
+    "minecraft:visual/ambient_light_color": "#002e7a",
+    "minecraft:visual/sky_fog_end_distance": 10
+  },
+  "temperature": -30,
+  "downfall": 0,
+  "has_precipitation": true,
+  "effects": {
+    "water_color": 11868672
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}
