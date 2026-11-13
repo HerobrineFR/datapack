@@ -1,0 +1,41 @@
+{
+  "attributes": {
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:spore_blossom_air"
+        },
+        "probability": 0.0001
+      }
+    ],
+    "minecraft:visual/fog_color": "#669c35",
+    "minecraft:visual/fog_start_distance": 0.3,
+    "minecraft:visual/fog_end_distance": 200,
+    "minecraft:visual/sky_light_factor": {
+      "modifier": "override",
+      "argument": 0.5
+    },
+    "minecraft:visual/block_light_tint": "#d58400",
+    "minecraft:visual/cloud_fog_end_distance": 6000,
+    "minecraft:visual/cloud_color": [
+      1,
+      0,
+      1,
+      0.45
+    ],
+    "minecraft:visual/cloud_height": 600,
+    "minecraft:visual/sky_color": "#38571a",
+    "minecraft:visual/ambient_light_color": "#38571a",
+    "minecraft:visual/sky_fog_end_distance": 10
+  },
+  "temperature": -30,
+  "downfall": 0,
+  "has_precipitation": true,
+  "effects": {
+    "water_color": 5494269
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}
